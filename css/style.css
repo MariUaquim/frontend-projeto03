@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'yuseiMagic';
+    src: url('../fonts/YuseiMagic.ttf') format('woff2')
+    /* Outros estilos de fonte, como peso e estilo, se necessário */
+}
+
+/* Aplicar a fonte a elementos específicos */
+
+body{
+    font-family: 'yuseiMagic', sans-serif;
+    background-color: rgba(37, 37, 37,.08);
+}
+#meuCarrossel img{
+    height: 500px;
+}
+.card{
+    margin-left: 20px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+}
