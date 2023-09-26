@@ -10,11 +10,18 @@ body{
     font-family: 'yuseiMagic', sans-serif;
     background-color: rgba(37, 37, 37,.08);
 }
+.container{
+    margin-top: 0px;
+}
 #meuCarrossel img{
     height: 500px;
 }
 .card{
     margin-left: 20px;
     margin-bottom: 50px;
-    padding-top: 10px;
+    padding: 10px;
+}
+.card img{
+    max-height: 300px;
+    width: auto;
 }
